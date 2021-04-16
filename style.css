@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+  }
+  
+  #container1, #container2, #container3, #container4 {
+    float: left;
+    width:250px; height:200px;
+    display: inline-block;
+    margin: 2em;
+    
+  }
+  p {
+    display: block;
+    width: 450px;
+    margin: 2em auto;
+    text-align: left;
+    color: white;
+  }
+  #sistem{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 2%;
+    right:1% ;
+    font-weight: bolder;
+    font-size: 10px;
+}
+#fps
+{
+  position: absolute;  
+  font-family: sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  color: rgba(255,255,255,0.5);
+  
+  z-index: 2;
+}
+
+
+      
